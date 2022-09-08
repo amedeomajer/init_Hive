@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo killall -uf $(who | cut -d ' ' -f 1)

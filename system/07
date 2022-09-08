@@ -1,0 +1,4 @@
+cat /var/run/sshd.pid
+// PID : process ID
+// 
+At sshd startup time its process ID (pid) is written in the /var/run/sshd. pid file

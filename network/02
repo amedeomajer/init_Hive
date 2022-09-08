@@ -1,0 +1,2 @@
+ping $(ifconfig en0 | grep broadcast | cut -d ' ' -f 6) | arp -a | grep 'en0 ' | cut -d ' ' -f2 | cut -c 2- | rev | cut -c 2- | rev | sed "$ d" | sed "$ d"
+## last 2 lines might be wrong

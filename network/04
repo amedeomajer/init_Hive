@@ -1,0 +1,1 @@
+netstat -rn | grep 'Routing tables' -A 4 | sed -n '5p'

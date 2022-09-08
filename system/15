@@ -1,0 +1,1 @@
+kill -s KILL %$(jobs -l | grep -E 'Running|sudo tail -f /var/log/syslog &' | cut -c 2)

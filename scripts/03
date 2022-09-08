@@ -1,0 +1,5 @@
+#! /bin/bash
+
+ls -laR | grep -v '...x..x..x' | rev | cut -d " " -f1 | rev | tail -n +2
+
+# -v inverted selection, grep lines that don't contain pattern

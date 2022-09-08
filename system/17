@@ -1,0 +1,2 @@
+ssh <username>@localhostIP -p <guestport>
+#ssh amedeo@192.168.56.2 -p 50022

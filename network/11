@@ -1,0 +1,3 @@
+traceroute who.int
+in the result find nat. The NAT srver is the device that converts your private IP address
+to the pubblic IP address to access the internet
