@@ -1,2 +1,6 @@
+graphic interface
 click on power button and switch user or in terminal su <username>
 
+ssh session
+in terminal
+ssh <username>@<localip> -p <port>
